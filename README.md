@@ -34,7 +34,7 @@ Enlaces de apoyo para las configuraciones:
 - Para observar el resultado del flow, es necesario abrir un navegador  y dirigirse a localhost:1880/ui
 - Enviar por MQTT un mensaje que contenga JSON con variables ID, Temp, Hum.
 
-###Notas
+### Notas
 - El flow se suscribe al tema codigoIoT/Mor/mqtt/flow4
 - El mensaje mqtt usando para este flow es: `mosquitto_pub -h localhost -t codigoIoT/Mor/mqtt/flow4 -m '{"ID":"Hugo Vargas","temp":18,"hum":78}'`
 - Para que la gráfica muestre un progreso, es recomendable enviar al menos 2 mensajes
@@ -46,4 +46,4 @@ Enlaces de apoyo para las configuraciones:
 ![](https://github.com/HilarioBarcenas/flow4_NodeRed/blob/main/Dashboard.png?raw=true)
 
 ### Créditos
-**Desarrollado por **`Hilario Barcenas`
+**Desarrollado por** `Hilario Barcenas`
